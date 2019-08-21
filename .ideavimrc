@@ -1,0 +1,20 @@
+set mapleader = ' '
+set showmode
+set incsearch
+set surround 
+set multiple-cursors
+set ignorecase
+
+set visualbell
+set noerrorbells
+
+" Set 'jj' as escape sequence
+inoremap jj <ESC>
+
+" Set 'jk' as escape sequence
+inoremap jk <ESC>
+
+" Fix :W,:Q typo, and entering ex mode by accident
+cmap W w
+cmap Q q
+map q: :q
